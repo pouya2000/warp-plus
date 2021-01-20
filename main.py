@@ -7,17 +7,9 @@ import time
 import os
 import sys
 script_version = '4.0.0'
-window_title   = f"WARP-PLUS-CLOUDFLARE By PouyaSNazari (version {script_version})"
+window_title   = f"WARP-PLUS-CLOUDFLARE By ALIILAPRO (version {script_version})"
 os.system('title ' + window_title if os.name == 'nt' else 'PS1="\[\e]0;' + window_title + '\a\]"; echo $PS1')
 os.system('cls' if os.name == 'nt' else 'clear')
-print('      _______ _      __________________       _______ _______ _______ _______\n'
-'     (  ___  | \     \__   __|__   __( \     (  ___  |  ____ |  ____ |  ___  )\n'
-'     | (   ) | (        ) (     ) (  | (     | (   ) | (    )| (    )| (   ) |\n'
-'     | (___) | |        | |     | |  | |     | (___) | (____)| (____)| |   | |\n'
-'     |  ___  | |        | |     | |  | |     |  ___  |  _____)     __) |   | |\n'
-'     | (   ) | |        | |     | |  | |     | (   ) | (     | (\ (  | |   | |\n'
-'     | )   ( | (____/\__) (_____) (__| (____/\ )   ( | )     | ) \ \_| (___) |\n'
-'     |/     \(_______|_______|_______(_______//     \|/      |/   \__(_______)\n')
 print ("[+] ABOUT SCRIPT:")
 print ("[-] With this script, you can getting unlimited GB on Warp+.")
 print (f"[-] Version: {script_version}")
